@@ -45,7 +45,7 @@
     display: block;
     width: 100%;
     height: 100%;
-    background: linear-gradient(332deg, #004b88a1 0%,  #2bd5ff1a 100%);    
+    background: linear-gradient(332deg, #1b9c8452 0%,  #E8F6EF52 100%);    
     z-index: 2;
     transition: .5s all;
     opacity: 0;
@@ -82,7 +82,7 @@
 
 .card a{
     text-decoration: none;
-    background-color: var(--cor-tres);
+    background-color: var(--cor-dois);
     color: #ffffff;
     font-size: 14px;
     padding: 5px 12px;

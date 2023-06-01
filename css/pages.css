@@ -13,7 +13,7 @@
 .show div{
 width: 100%;
 height: 100%;
-background-color: rgba(0, 104, 165, 0.466);
+background-color: #1b9c8471;
 display: flex;
 text-align: center;
 justify-content: center;
@@ -22,15 +22,106 @@ align-items: center;
 }
 
 .show h2{
-    color: #99f0ff80;
+    color: var(--cor-um);
     text-transform: uppercase;
     font-size: 3.5rem;
     letter-spacing: 16px;
 }
 
+.show-conteudo{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.tp1{
+    background-color: var(--cor-um);
+}
+
+.tp2{
+    background-color: var(--cor-dois);
+}
 
 
-.scale-down-vertical-bottom{
-    animation:scale-down-vertical-bottom 0.7s} 
+ .show-conteudo img{
+    width: 400px;
+    height: 280px;
+    border-radius: 10px;
+   
+} 
 
-    @keyframes scale-down-vertical-bottom{0%{transform:scaleY(1);transform-origin:center bottom}100%{transform:scaleY(.3); transform-origin:center bottom}}
+.tp1 img{
+    box-shadow: -18px 15px 14px -2px rgba(27,156,133,1);
+    -webkit-box-shadow: -18px 15px 14px -2px rgba(27,156,133,1);
+    -moz-box-shadow: -18px 15px 14px -2px rgba(27,156,133,1);;
+}
+
+.tp2 img{
+    box-shadow: 18px 15px 14px -2px rgba(232,246,239,1);
+    -webkit-box-shadow: 18px 15px 14px -2px rgba(232,246,239,1);
+    -moz-box-shadow: 18px 15px 14px -2px rgba(232,246,239,1);
+   }
+
+
+.show-conteudo .text{
+    width: 50%;
+    color: #000;
+}
+
+.show-conteudo .text h2{
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.show-conteudo .text p{
+    font-size: 1rem;
+    text-transform: capitalize;
+
+}
+
+ .tp1 .text{
+    color: var(--cor-dois);
+ }
+
+ .tp2 .text{
+    color: var(--cor-um);
+ }
+
+
+ @media screen and (max-width:1030px){
+    .show-conteudo{
+        flex-direction: column;
+        margin: auto 0;
+    
+    }
+
+    .show-conteudo img{
+        position: relative;
+    }
+
+    .show-conteudo .text{
+        width: 100%;
+        text-align: center;
+    }
+
+    figure{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 20px 5px;
+    }
+
+ }
+
+@media screen and (max-width:600px) {
+    .show h2{
+        font-size:1.6rem;
+    }
+}
+
+
+

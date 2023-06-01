@@ -1,17 +1,17 @@
 header{
-    background: var(--cor-tres);
+    background: var(--cor-dois);
     color: var(--cor-um);
 }
 
 .menu{
     display: flex;
     justify-content: space-between;
-    padding: 5px 80px;
+    padding: 5px 35px;
 }
 
 .logo img{
-    max-width: 90px;
-    margin: 5px;
+ width: 250px;
+ padding: 10px;
 }
 
 .menu-lista{
@@ -69,6 +69,12 @@ header{
 }
 
  @media screen and (max-width:1030px){
+
+    .menu{
+        display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    }
 
     .menu-lista{
         display: none;
