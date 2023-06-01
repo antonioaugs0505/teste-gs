@@ -13,7 +13,6 @@
   width: 250px;
   height:350px;
   padding: 32px 16px;
-  background-color: #fff;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -25,7 +24,7 @@
 }
 
 .text{
-    color: #ffffff;
+    color: var(--cor-um);
     margin: auto 0;
     z-index: 1;
     text-transform: uppercase;
@@ -69,7 +68,7 @@
 .card .info{
     position: relative;
     z-index: 3;
-    color: #fff;
+    color: var(--cor-um);
     opacity: 0;
     transform: translateY(30px);
     transition: .5s all;
@@ -83,17 +82,23 @@
 .card a{
     text-decoration: none;
     background-color: var(--cor-dois);
-    color: #ffffff;
+    color: var(--cor-um);
     font-size: 14px;
     padding: 5px 12px;
     border-radius: 20px;
-    border: 2px solid #fff;
+    border: 2px solid var(--cor-um);
     margin: 20px;
     font-weight: bold;
     cursor: pointer;
     transition:.4s ease-in-out ;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+.card a:hover{
+    background-color: var(--cor-um);
+    border: 2px solid var(--cor-dois);
+    color: var(--cor-dois);
 }
 
 .card p{

@@ -6,9 +6,10 @@
     background-size: cover;
     position: relative;
     overflow: hidden;
-    background-image: url(../img/c1.jpg);
-
 } 
+.agro{
+    background-image: url(../img/cards/c1.jpg);
+}
 
 .show div{
 width: 100%;
