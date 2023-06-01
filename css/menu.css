@@ -68,7 +68,7 @@ header{
     
 }
 
- @media screen and (max-width:730px){
+ @media screen and (max-width:1030px){
 
     .menu-lista{
         display: none;

@@ -1,0 +1,23 @@
+footer{
+    background-color: var(--cor-tres);
+    color: var(--cor-um);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    position: block;
+}
+
+@media screen and (max-width:1030px){
+    
+    footer{
+        flex-direction: collum;
+        margin-bottom: 30px;
+    }
+
+    .rm{
+        margin-top: 30px;
+     }
+}
