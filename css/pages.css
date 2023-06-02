@@ -10,6 +10,13 @@
 .agro{
     background-image: url(../img/cards/c1.jpg);
 }
+.ia{
+    background-image: url(../img/cards/c2.jpg);
+}
+
+.cult{
+    background-image: url(../img/cards/c3.jpg);
+}
 
 .show div{
 width: 100%;
@@ -19,7 +26,6 @@ display: flex;
 text-align: center;
 justify-content: center;
 align-items: center;
-
 }
 
 .show h2{
@@ -81,11 +87,11 @@ align-items: center;
 .show-conteudo .text p{
     font-size: 1rem;
     text-transform: capitalize;
-
 }
 
  .tp1 .text{
     color: var(--cor-dois);
+    text-align: right;
  }
 
  .tp2 .text{
