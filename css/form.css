@@ -10,12 +10,12 @@
 
 .contato{
     background-image: url(../img/cards/c4\ \(2\)\ \(1\).jpg);
-    background-position: 30%;
+    background-position-y: 30%;
     background-size: cover;
 }
 
 .show div{
-    
+
 width: 100%;
 height: 100%;
 background-color: #1b9c8471;
@@ -24,3 +24,117 @@ text-align: center;
 justify-content: center;
 align-items: center;
 }
+
+body{
+    background: rgb(206,235,226);
+    background: linear-gradient(90deg, rgba(206,235,226,1) 0%, rgba(27,156,133,1) 100%);
+}
+
+.container-form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 5px solid var(--cor-um) ;
+    border-bottom: 5px solid var(--cor-um) ;
+}
+
+.img-form{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-form img{
+    width: 350px;
+    height: 380px;
+    
+}
+
+.form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+.header-form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--cor-um);
+}
+
+.group-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 16px 0;
+    border: none;
+}
+
+.input-form-campo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px ;
+}
+
+.input-form-campo input{
+    margin: 1px;
+    padding: .8rem 1.2rem;
+    border: none;
+    border-radius: 30px;
+    border: 2px solid var(--cor-dois);
+    background-color: var(--cor-um);
+    color: var(--cor-dois);
+}
+
+.input-form-campo input{
+    background-color: var(--cor-um) ;
+}
+
+.input-form-campo input:focus-visible{
+    outline: 1px solid var(--cor-um) ;
+}
+
+.input-form-campo label{
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--cor-um);
+}
+
+.input-form-campo input::placeholder{
+    color: var(--cor-dois);
+}
+
+select{
+    padding: .8rem 1.5rem;
+    border: none;
+    border-radius: 30px;
+    border: 2px solid var(--cor-dois);
+    background-color: var(--cor-um);
+    color: var(--cor-dois);
+}
+
+
+.input-form-campo select:focus-visible{
+    outline: 1px solid var(--cor-um) ;
+}
+
+@media screen and (max-width:1030px) {
+    .img-form{
+        display: none;
+    }
+
+    .form{
+        width: 80%;
+    }
+}
+

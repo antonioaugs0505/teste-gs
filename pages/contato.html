@@ -47,8 +47,89 @@
         </div>
     </header>
 
-    <section class="show contato"><div><h2>modelos de cultivo eficientes</h2></div></section>
+    <section class="show contato"><div><h2>contato</h2></div></section>
 
+        <div class="container-form">
+            <div class="img-form">
+                <img src="../img/logo-menu/contato.png" alt="">
+            </div>
+
+            <div class="form">
+                <form action="">
+                    <legend class="header-form">
+                        Contato
+                    </legend>
+
+                    <fieldset class="group-form">
+
+                        <div class="input-form-campo">
+                            <label id="nome" for="nome">Nome</label>
+                            <input id="nome" type="text" name="nome" placeholder="Digite seu nome" required>
+                        </div>
+
+                        <div class="input-form-campo">
+                            <label id="sobrenome" for="sobrenome">Sobrenome</label>
+                            <input id="sobrenome" type="text" name="sobrenome" placeholder="Digite seu sobrenome" required>
+                        </div>
+
+                        <div class="input-form-campo">
+                            <label id="email" for="email">Email</label>
+                            <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+                        </div>
+
+                        <div class="input-form-campo">
+                            <label id="tel" for="tel">Celular</label>
+                            <input id="tel" type="tel" name="email" placeholder="(xx) xxxx-xxxx" required>
+                        </div>
+
+                        <div class="input-form-campo">
+                            <label for="cep">CEP</label>
+                            <input id="cep" type="text" name="cep" placeholder="Ex: 0000000" required>
+                        </div>
+
+                        <div class="input-form-campo">
+                            <label for="estado">Estado</label>
+                            <input id="estado" type="text" name="estado" placeholder="Digite seu estado" required>
+                        </div>
+
+                        <div class="input-form-campo">
+                            <label for="cidade">Cidade</label>
+                            <input id="cidade" type="text" name="cidade" placeholder="Digite sua cidade" required>
+                        </div>
+
+                        <div class="input-form-campo">
+                            <label for="rua">Rua</label>
+                            <input id="rua" type="text" name="text" placeholder="Digite sua rua" required>
+                        </div>
+
+                        <div class="input-form-campo">
+                            <label id="numero" for="numero">Numero</label>
+                            <input id="numero" type="number" name="numero" placeholder="Digite seu numero" required>
+                        </div>
+
+                        <div class="input-form-campo">
+                           
+                            <label for="genero">Genero</label>
+                            <select name="genero" id="genero">
+                                <option class="select-item" selected disabled  value="0">Escolha seu genero</option>
+                                <option   value="homem">Homem</option>
+                                <option value="mulher">Mulher</option>
+                                <option value="outro">Outro</option>
+                                <option value="nao">Prefiro não dizer</option>
+                            </select>
+                        </div>
+                    
+
+
+                        
+                    
+
+
+                    </fieldset>   
+                </form>
+            </div>
+        </div>
+    
 
     <footer>
         <h3>Todos os direitos reservados - FIAP 2023</h3>
@@ -63,6 +144,7 @@
     </footer>
 
     <script src="../js/menu.js"></script>
+    <script src="../js/cep.js"></script>
 
 </body>
 </html>
