@@ -50,12 +50,10 @@ align-items: center;
     background-color: var(--cor-dois);
 }
 
-
  .show-conteudo img{
     width: 400px;
     height: 280px;
     border-radius: 10px;
-   
 } 
 
 .tp1 img{
@@ -125,8 +123,30 @@ align-items: center;
  }
 
 @media screen and (max-width:600px) {
+
+
     .show h2{
         font-size:1.2rem;
+        padding: 10px;
+    }
+
+    .show-conteudo{
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .show-conteudo img{
+        width: 280px;
+        height: 210px;
+        
+    } 
+
+    .show{
+        height: 600vh;
+    }
+
+    .tp1 img, .tp2 img{
+        box-shadow: none;
     }
 }
 
