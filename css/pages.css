@@ -126,7 +126,7 @@ align-items: center;
 
 @media screen and (max-width:600px) {
     .show h2{
-        font-size:1.6rem;
+        font-size:1.2rem;
     }
 }
 
