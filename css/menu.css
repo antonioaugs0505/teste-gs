@@ -65,16 +65,16 @@ padding: 10px auto;
 }
 
 .icon{
-    width: 32px;
-    
+    width: 28px;
 }
 
  @media screen and (max-width:1030px){
 
     .menu{
         display: flex;
-    justify-content: space-between;
-    padding: 5px 20px;
+        justify-content: space-between;
+        padding: 5px 20px;
+        align-items: center;
     }
 
     .menu-lista{
@@ -87,13 +87,13 @@ padding: 10px auto;
 
     .mobile-menu-icon{
         display: block;
-        margin: auto 0;
     }
 
     .mobile-menu-icon button{
         background-color: transparent;
         border: none;
         cursor: pointer;
+        padding-top: 10px;
     }
 
     .mobile-menu ul{

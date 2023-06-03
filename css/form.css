@@ -153,6 +153,15 @@ select{
     }
 
     .form{
+        width: 100%;
+    }
+
+    .input-form-campo{
+        width: 100%;
+        
+    }
+
+    .form{
         width: 80%;
     }
 }

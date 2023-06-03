@@ -130,9 +130,9 @@ align-items: center;
         padding: 10px;
     }
 
-    .show-conteudo{
-        padding: 10px;
-        justify-content: center;
+    .show-conteudo figure{
+        margin: auto 0;
+        padding: 15px;
     }
 
     .show-conteudo img{
